@@ -1,0 +1,233 @@
+*{
+    box-sizing:border-box;
+}
+
+
+body{
+    color: black;
+    font-size:16px ;
+    font-family: arial, sans-serif;
+    width: 95%;
+    padding: 4%;
+    margin-top: 0%;
+    
+    
+}
+
+
+
+
+a
+{
+    text-decoration: none;
+    color:black;
+}
+
+.sub-menu{
+    display:none;
+    position: absolute;
+    color: black;
+    border:1px solid rgb(242, 235, 235);
+    background-color: #eee;
+    text-align: center;
+    
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:8px;
+
+}
+
+
+
+ul li:hover{
+    color:rgb(28, 176, 117);
+
+}
+
+
+
+ul li a:hover{
+    color:rgb(47, 180, 135)
+}
+    
+  
+
+header li:hover .sub-menu{
+    display: block;
+    
+}
+
+
+.menu{
+    text-align: right;
+    padding:25px;
+
+}
+
+
+
+header li{
+    position: relative;
+}
+
+
+.liste li{
+    float:left;
+    padding:25px;
+}
+
+
+form{
+    text-align: right;
+    padding:25px;
+}
+
+
+
+header{
+    border-bottom:1px solid  #eee;
+    margin-top: 1%;
+}
+
+
+
+.titre{
+    color:rgb(132, 53, 207);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.accueil{
+    width: auto;
+    
+    
+}
+
+
+
+.bold{
+    font-weight: bold;
+}
+
+
+div ol li{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+
+.head{
+    background-color:rgb(214, 202, 225);
+    border-radius: 5px;
+    
+
+    
+
+    
+    
+}
+
+
+ol li{
+    float:left;
+    padding: 21px;
+}
+
+
+.licence{
+    text-align: right;
+    padding: 21px;
+}
+
+
+.mise{
+    text-align: right;
+}
+
+
+main div p {
+    border:2px solid #eee;
+    width:200px ;
+    block-size: 350px;
+    text-align: center;
+    box-shadow: 10px 16px 20px rgb(62, 59, 59);
+    line-height:250% ;
+    float: right;
+     
+}
+
+
+.logo{
+   line-height: 300%;
+   letter-spacing: 10px;
+  
+}
+ main div :hover .logo{
+    color:rgb(84, 84, 219)
+    
+ }
+main{
+    line-height: 200%;
+    
+}
+
+
+.opo{
+    background-color: rgb(180, 216, 237);
+    border-radius: 5px; 
+}
+
+.pré{
+    background-color: rgb(243, 235, 223);
+    border-radius:5px;
+    line-height: 250%;
+    background-size:auto ;
+
+}
+section{
+    margin: 50px;
+}
+
+button{
+    background-color: rgb(136, 23, 242);
+    color:azure;
+    border-radius: 5px;
+    width: 200px;
+    block-size: 40px;
+    text-align: center;
+    margin: 5%;
+    margin-left: 40%;
+
+}
+
+button:hover{
+
+
+    box-shadow: 10px 8px 15px rgb(57, 56, 56);
+    
+    
+}
+
+.suite{
+    color: rgb(113, 33, 233);
+    margin-left: 45%;
+}
+
+
+    
+    
+
+
+
+
+
+
+
